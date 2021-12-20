@@ -44,10 +44,11 @@ The main findings of this analysis can be found at the post available [here](htt
 
 In summary, an aggregated dataset was created on the user level to be used as input to a predicitve model to predict customer churn for a music streaming service.  The resulted input features, with correlation matrix:
 
-![alt text](https://github.com/shahroberto/predicting-music-streaming-user-churn/image.jpg?raw=true)
+![alt text](https://github.com/shahroberto/predicting-music-streaming-user-churn/blob/main/correlation.png?raw=true)
 
+were tested using naive, logistic regression, gradient boosting, and random forest models.  Random forest modeling showed the best performance and after hyperparameter tuning yielded an F1 score on the test set of 0.8669, ~20ppts higher than the naive model.  The resulting feature importance can be seen below:
 
-, were tested using naive, logistic regression, gradient boosting, and random forest models.
+![alt text](https://github.com/shahroberto/predicting-music-streaming-user-churn/blob/main/importance.png?raw=true)
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
