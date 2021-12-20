@@ -40,7 +40,14 @@ There is 1 notebook available here to showcase work related to the above motivat
 
 ## Results<a name="results"></a> 
 
-The main findings of the code can be found at the post available [here](https://robertshaheen.medium.com/predicting-user-churn-in-a-music-streaming-service-9da00c1a133d).
+The main findings of this analysis can be found at the post available [here](https://robertshaheen.medium.com/predicting-user-churn-in-a-music-streaming-service-9da00c1a133d).
+
+In summary, an aggregated dataset was created on the user level to be used as input to a predicitve model to predict customer churn for a music streaming service.  The resulted input features, with correlation matrix:
+
+![alt text](https://github.com/shahroberto/predicting-music-streaming-user-churn/image.jpg?raw=true)
+
+
+, were tested using naive, logistic regression, gradient boosting, and random forest models.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
